@@ -37,9 +37,16 @@ import org.springframework.samples.petclinic.model.Visit;
 import org.springframework.samples.petclinic.repository.OwnerRepository;
 import org.springframework.samples.petclinic.util.EntityUtils;
 import org.springframework.stereotype.Repository;
+
+/**
+ * Ephemerol validation errors.
+ * Remove the 3 import statements below to fix the cloud readiness job
+*/
+/******************************************************************/
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import org.springframework.jndi.*;
+/******************************************************************/
 
 /**
  * A simple JDBC-based implementation of the {@link OwnerRepository} interface.
